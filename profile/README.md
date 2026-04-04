@@ -1,7 +1,9 @@
-# Joshua C. Macdonald
+# [Joshua C. Macdonald](https://jcmacdonald.dev/)
 
-Principled inference, simulation, and model criticism for decision-critical
-scientific systems under partial observability.
+Methods and research software for partially observed systems in infectious
+disease, ecology, and global health.
+
+[Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Software](https://jcmacdonald.dev/software/)
 
 ## Focus Areas
 
@@ -11,8 +13,10 @@ scientific systems under partial observability.
   dynamical systems
 - **Bayesian latent variable models** — variational PCA, posterior predictive
   testing, rank selection
-- **Infectious disease forecasting** — surveillance design, ensemble calibration,
-  scenario modeling
+- **Operational forecasting** — infectious disease scenario modeling, surveillance
+  design, ensemble calibration
+- **Structured population dynamics** — plankton ecology, within-host/between-host
+  disease dynamics, cultural transmission
 
 ## Packages
 
@@ -31,3 +35,4 @@ scientific systems under partial observability.
 | [pp-eigentest](https://github.com/yoavram-lab/pp-eigentest) | yoavram-lab | Posterior predictive eigenvalue rank testing |
 | [op_engine](https://github.com/ACCIDDA/op_engine) | ACCIDDA | Operator-partitioned solver (Python) |
 | [op_system](https://github.com/ACCIDDA/op_system) | ACCIDDA | System specification compiler (Python) |
+| [flepimop2](https://github.com/ACCIDDA/flepimop2) | ACCIDDA | Modular epidemic modeling and simulation pipeline |
