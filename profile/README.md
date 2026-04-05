@@ -1,18 +1,18 @@
 # [Joshua C. Macdonald](https://jcmacdonald.dev/)
 
-Methods, scientific AI/ML, and research software for partially observed systems
-across earth, environmental, and health sciences — because prediction alone is
-not enough; the structural assumptions in every model must be tested and defended
-before anyone acts on the output.
+Decision support and principled inference for partially observed systems
+across earth, environmental, and health sciences — determining what actions
+to take, what experiments to run, and what measurements are worth collecting
+when interventions are costly and uncertainty is unavoidable.
 
-[Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Software](https://jcmacdonald.dev/software/)
+[Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Projects](https://jcmacdonald.dev/projects/)
 
 ## Focus Areas
 
+- **Decision support under partial observability** — surveillance design,
+  forecasting pipelines, intervention evaluation, resource allocation
 - **Model criticism & evaluation** — structured observables, Pareto-optimal
   configuration selection, Bayesian stacking, proper scoring rules
-- **Decision support under partial observability** — surveillance design,
-  forecasting pipelines, intervention evaluation
 - **Scientific AI/ML** — physics-embedded surrogates, lawful learning,
   generative model design
 - **Operator-partitioned solvers** — IMEX/PDE operator splitting, trait-structured
@@ -20,7 +20,7 @@ before anyone acts on the output.
 - **Bayesian latent variable models** — variational PCA, posterior predictive
   testing, rank selection
 - **Operational forecasting** — infectious disease scenario modeling,
-  ensemble calibration, resource allocation
+  ensemble calibration, intervention timing
 
 ## Packages
 
