@@ -24,16 +24,17 @@ before anyone acts on the output.
 
 ## Packages
 
-| Package | Language | Description |
-|---------|----------|-------------|
-| [model-criticism](https://github.com/jcm-sci/model-criticism) | Python | Observable-based model evaluation, Pareto optimization, Bayesian stacking |
+| Package                                                           | Language | Description                                                                                                    |
+| ----------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
+| [model-criticism](https://github.com/jcm-sci/model-criticism)     | Python   | Observable-based model evaluation, Pareto optimization, Bayesian stacking                                      |
+| [ModelCriticism.jl](https://github.com/jcm-sci/ModelCriticism.jl) | Julia    | Model evaluation harness wrapping Metaheuristics.jl, ParetoSmooth.jl, QuasiMonteCarlo.jl, GlobalSensitivity.jl |
 
 ## Related Work (other orgs)
 
-| Package | Org | Description |
-|---------|-----|-------------|
-| [VBPCApy](https://github.com/yoavram-lab/VBPCApy) | yoavram-lab | Variational Bayesian PCA with missing-data support |
-| [pp-eigentest](https://github.com/yoavram-lab/pp-eigentest) | yoavram-lab | Posterior predictive eigenvalue rank testing |
-| [op_engine](https://github.com/ACCIDDA/op_engine) | ACCIDDA | Operator-partitioned solver (Python) |
-| [op_system](https://github.com/ACCIDDA/op_system) | ACCIDDA | System specification compiler (Python) |
-| [flepimop2](https://github.com/ACCIDDA/flepimop2) | ACCIDDA | Modular epidemic modeling and simulation pipeline |
+| Package                                                     | Org         | Description                                        |
+| ----------------------------------------------------------- | ----------- | -------------------------------------------------- |
+| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)           | yoavram-lab | Variational Bayesian PCA with missing-data support |
+| [pp-eigentest](https://github.com/yoavram-lab/pp-eigentest) | yoavram-lab | Posterior predictive eigenvalue rank testing       |
+| [op_engine](https://github.com/ACCIDDA/op_engine)           | ACCIDDA     | Operator-partitioned solver (Python)               |
+| [op_system](https://github.com/ACCIDDA/op_system)           | ACCIDDA     | System specification compiler (Python)             |
+| [flepimop2](https://github.com/ACCIDDA/flepimop2)           | ACCIDDA     | Modular epidemic modeling and simulation pipeline  |
