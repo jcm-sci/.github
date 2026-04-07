@@ -24,10 +24,12 @@ when interventions are costly and uncertainty is unavoidable.
 
 ## Packages
 
-| Package                                                           | Language | Description                                                                                                    |
-| ----------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| [model-criticism](https://github.com/jcm-sci/model-criticism)     | Python   | Observable-based model evaluation, Pareto optimization, Bayesian stacking                                      |
-| [ModelCriticism.jl](https://github.com/jcm-sci/ModelCriticism.jl) | Julia    | Model evaluation harness wrapping Metaheuristics.jl, ParetoSmooth.jl, QuasiMonteCarlo.jl, GlobalSensitivity.jl |
+| Package                                                           | Language | Description                                                                                            |
+| ----------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------ |
+| [model-criticism](https://github.com/jcm-sci/model-criticism)     | Python   | Observable-based model evaluation, Pareto optimization, Bayesian stacking                              |
+| [ModelCriticism.jl](https://github.com/jcm-sci/ModelCriticism.jl) | Julia    | Model evaluation harness wrapping Metaheuristics.jl, ParetoSmooth.jl, QuasiMonteCarlo.jl              |
+| [OpSystem.jl](https://github.com/jcm-sci/OpSystem.jl)             | Julia    | Declarative dynamical system specification compiler — YAML to callable numerics                        |
+| [OpEngine.jl](https://github.com/jcm-sci/OpEngine.jl)             | Julia    | Operator-partitioned numerical solver — ODE + IMEX/PDE operator splitting                             |
 
 ## Related Work (other orgs)
 
