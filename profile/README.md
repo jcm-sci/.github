@@ -26,8 +26,8 @@ when interventions are costly and uncertainty is unavoidable.
 
 | Package                                                           | Language | Description                                                                                            |
 | ----------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------ |
-| [model-criticism](https://github.com/jcm-sci/model-criticism)     | Python   | Observable-based model evaluation, Pareto optimization, Bayesian stacking                              |
-| [ModelCriticism.jl](https://github.com/jcm-sci/ModelCriticism.jl) | Julia    | Model evaluation harness wrapping Metaheuristics.jl, ParetoSmooth.jl, QuasiMonteCarlo.jl              |
+| [trade-study](https://github.com/jcm-sci/trade-study)     | Python   | Observable-based model evaluation, Pareto optimization, Bayesian stacking                              |
+| [TradeStudy.jl](https://github.com/jcm-sci/TradeStudy.jl) | Julia    | Model evaluation harness wrapping Metaheuristics.jl, ParetoSmooth.jl, QuasiMonteCarlo.jl              |
 | [OpSystem.jl](https://github.com/jcm-sci/OpSystem.jl)             | Julia    | Declarative dynamical system specification compiler — YAML to callable numerics                        |
 | [OpEngine.jl](https://github.com/jcm-sci/OpEngine.jl)             | Julia    | Operator-partitioned solver composing heterogeneous subsystem solvers (ODE, PDE, stochastic, hybrid)  |
 
