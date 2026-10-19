@@ -24,9 +24,9 @@ when interventions are costly and uncertainty is unavoidable.
 
 ## Packages
 
-| Package                                               | Language | Description                                                                                                                   |
-| ----------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| [trade-study](https://github.com/jcm-sci/trade-study) | Python   | Released design and evaluation framework with protocol-driven simulators, proper scoring rules, Pareto analysis, and stacking |
+| Package                                               | Language | Description                                                                                                                                      |
+| ----------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [trade-study](https://github.com/jcm-sci/trade-study) | Python   | Released framework for replicated studies, paired comparisons, Pareto analysis, preference-based decisions and provenance-checked result bundles |
 
 ## Inactive Design Scaffolds
 
@@ -43,10 +43,18 @@ Julia work and should not be installed as packages.
 
 ## Related Work (other orgs)
 
-| Package                                                        | Org         | Description                                                                                         |
-| -------------------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------- |
-| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)              | yoavram-lab | Variational Bayesian PCA for incomplete data with full posterior uncertainty                        |
-| [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/) | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                              |
-| [op_engine](https://github.com/ACCIDDA/op_engine)              | ACCIDDA     | Array-API-aware operator-partitioned solver with explicit, IMEX, implicit, and stochastic methods   |
-| [op_system](https://github.com/ACCIDDA/op_system)              | ACCIDDA     | Restricted expression parser and typed-IR compiler for structured dynamical systems                 |
-| [flepimop2](https://github.com/ACCIDDA/flepimop2)              | ACCIDDA     | Configuration-driven orchestration and provider framework for infectious-disease modeling campaigns |
+| Package                                                        | Org         | Description                                                                                                                               |
+| -------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)              | yoavram-lab | Variational Bayesian PCA for incomplete data with full posterior uncertainty                                                              |
+| [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/) | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                                                                    |
+| [op_engine](https://github.com/ACCIDDA/op_engine)              | ACCIDDA     | Released numerical core with deterministic/stochastic solvers, independent NumPy SSA banks, named observations and qualified CPU backends |
+| [op_system](https://github.com/ACCIDDA/op_system)              | ACCIDDA     | Released model compiler with Array API evaluators, reaction/observable metadata, forcing schedules and independent-block contracts        |
+| [flepimop2](https://github.com/ACCIDDA/flepimop2)              | ACCIDDA     | Configuration-driven orchestration and provider framework for infectious-disease modeling campaigns                                       |
+
+The Python [op_system](https://accidda.github.io/op_system/latest/guides/capabilities/)
+and [op_engine](https://accidda.github.io/op_engine/latest/guides/capabilities/) cores
+can run independently of FlepiMoP2; separate provider packages connect the layers.
+[trade-study's worked examples](https://jcm-sci.github.io/trade-study/guide/capabilities/)
+show replicated evaluation and decision reporting. Qualification is specific to
+the model, method and backend; a Pareto front or model weighting does not by
+itself establish calibration or transfer to real data.
