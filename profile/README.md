@@ -26,9 +26,9 @@ when interventions are costly and uncertainty is unavoidable.
 
 Current methodological work includes structural evaluation of scientific
 predictions, parameter inference and calibration, and learning from sparse
-observations. Working inference tools connect Bayesian fitting,
-simulation-based checks and replicated studies; they remain private and
-pre-release while application-specific validation develops. See the
+observations. [op_infer](https://jcmacdonald.dev/projects/inference_calibration/)
+connects Bayesian fitting, simulation-based checks and replicated studies;
+it remains private, pre-alpha and unreleased while application-specific validation develops. See the
 [research summaries](https://jcmacdonald.dev/projects/current_analyses/) and
 [inference project](https://jcmacdonald.dev/projects/inference_calibration/) for
 questions, aims and current status, with public papers and artifacts linked
@@ -55,13 +55,14 @@ Julia work and should not be installed as packages.
 
 ## Related Work (other orgs)
 
-| Package                                                        | Org         | Description                                                                                                                               |
-| -------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)              | yoavram-lab | Variational Bayesian PCA for incomplete data with full posterior uncertainty                                                              |
-| [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/) | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                                                                    |
-| [op_engine](https://github.com/ACCIDDA/op_engine)              | ACCIDDA     | Released numerical core with deterministic/stochastic solvers, independent NumPy SSA banks, named observations and qualified CPU backends |
-| [op_system](https://github.com/ACCIDDA/op_system)              | ACCIDDA     | Released model compiler with Array API evaluators, reaction/observable metadata, forcing schedules and independent-block contracts        |
-| [flepimop2](https://github.com/ACCIDDA/flepimop2)              | ACCIDDA     | Configuration-driven orchestration and provider framework for infectious-disease modeling campaigns                                       |
+| Package                                                             | Org         | Description                                                                                                                               |
+| ------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)                   | yoavram-lab | Variational Bayesian PCA for incomplete data with full posterior uncertainty                                                              |
+| [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/)      | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                                                                    |
+| [op_engine](https://github.com/ACCIDDA/op_engine)                   | ACCIDDA     | Released numerical core with deterministic/stochastic solvers, independent NumPy SSA banks, named observations and qualified CPU backends |
+| [op_system](https://github.com/ACCIDDA/op_system)                   | ACCIDDA     | Released model compiler with Array API evaluators, reaction/observable metadata, forcing schedules and independent-block contracts        |
+| [op_infer](https://jcmacdonald.dev/projects/inference_calibration/) | ACCIDDA     | Private pre-alpha statistical layer for Bayesian fitting, simulation-based calibration and replicated study-design checks; unreleased     |
+| [flepimop2](https://github.com/ACCIDDA/flepimop2)                   | ACCIDDA     | Configuration-driven orchestration and provider framework for infectious-disease modeling campaigns                                       |
 
 The Python [op_system](https://accidda.github.io/op_system/latest/guides/capabilities/)
 and [op_engine](https://accidda.github.io/op_engine/latest/guides/capabilities/) cores
