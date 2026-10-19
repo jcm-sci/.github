@@ -2,13 +2,13 @@
 
 Research software for simulation, statistical inference, and study design
 in earth, environmental, and health sciences. Applications include comparing
-interventions and surveillance strategies when observations are incomplete.
+interventions, evaluating predictions, and designing surveillance strategies.
 
 [Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Projects](https://jcmacdonald.dev/projects/)
 
 ## Focus Areas
 
-- **Decision support under partial observability.** Surveillance design,
+- **Study design and decision support.** Surveillance design,
   forecasting pipelines, intervention evaluation, resource allocation
 - **Model criticism and evaluation.** Structured observables, Pareto-optimal
   configuration selection, Bayesian stacking, proper scoring rules
