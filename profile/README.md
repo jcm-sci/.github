@@ -22,6 +22,18 @@ when interventions are costly and uncertainty is unavoidable.
 - **Operational forecasting** — infectious disease scenario modeling,
   ensemble calibration, intervention timing
 
+## Research in progress
+
+Current methodological work includes structural evaluation of scientific
+predictions, parameter inference and calibration, and learning from sparse
+observations. Working inference tools connect Bayesian fitting,
+simulation-based checks and replicated studies; they remain private and
+pre-release while application-specific validation develops. See the
+[research summaries](https://jcmacdonald.dev/projects/current_analyses/) and
+[inference project](https://jcmacdonald.dev/projects/inference_calibration/) for
+questions, aims and current status, with public papers and artifacts linked
+where available.
+
 ## Packages
 
 | Package                                               | Language | Description                                                                                                                                      |
