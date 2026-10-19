@@ -1,25 +1,24 @@
 # [Joshua C. Macdonald](https://jcmacdonald.dev/)
 
-Decision support and principled inference for partially observed systems
-across earth, environmental, and health sciences — determining what actions
-to take, what experiments to run, and what measurements are worth collecting
-when interventions are costly and uncertainty is unavoidable.
+Research software for simulation, statistical inference, and study design
+in earth, environmental, and health sciences. Applications include comparing
+interventions and surveillance strategies when observations are incomplete.
 
 [Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Projects](https://jcmacdonald.dev/projects/)
 
 ## Focus Areas
 
-- **Decision support under partial observability** — surveillance design,
+- **Decision support under partial observability.** Surveillance design,
   forecasting pipelines, intervention evaluation, resource allocation
-- **Model criticism & evaluation** — structured observables, Pareto-optimal
+- **Model criticism and evaluation.** Structured observables, Pareto-optimal
   configuration selection, Bayesian stacking, proper scoring rules
-- **Scientific AI/ML** — physics-embedded surrogates, lawful learning,
-  generative model design
-- **Operator-partitioned solvers** — IMEX/PDE operator splitting, trait-structured
+- **Scientific machine learning.** Surrogates with physical constraints
+  and generative model design
+- **Operator-partitioned solvers.** IMEX and PDE operator splitting, trait-structured
   dynamical systems
-- **Bayesian latent variable models** — variational PCA, posterior predictive
+- **Bayesian latent variable models.** Variational PCA, posterior predictive
   testing, rank selection
-- **Operational forecasting** — infectious disease scenario modeling,
+- **Operational forecasting.** Infectious disease scenario modeling,
   ensemble calibration, intervention timing
 
 ## Research in progress
@@ -57,7 +56,7 @@ Julia work and should not be installed as packages.
 
 | Package                                                             | Org         | Description                                                                                                                                                              |
 | ------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)                   | yoavram-lab | Variational Bayesian PCA for incomplete data with full posterior uncertainty                                                                                             |
+| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)                   | yoavram-lab | Variational Bayesian PCA for incomplete data with approximate posterior uncertainty                                                                                      |
 | [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/)      | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                                                                                                   |
 | [op_engine](https://github.com/ACCIDDA/op_engine)                   | ACCIDDA     | Released PDE/field and nonlocal operator core with deterministic/stochastic reaction solvers, independent NumPy SSA banks, named observations and qualified CPU backends |
 | [op_system](https://github.com/ACCIDDA/op_system)                   | ACCIDDA     | Released PDE/field, nonlocal and reaction model compiler with Array API evaluators, reaction/observable metadata, forcing schedules and independent-block contracts      |
