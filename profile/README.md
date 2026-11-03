@@ -1,34 +1,28 @@
-# [Joshua C. Macdonald](https://jcmacdonald.dev/)
+# jcm-sci
 
 Research software for mechanistic simulation, statistical inference, and the
 design of experiments, studies, monitoring programs, and surveillance. Applications
 span human infectious disease, livestock and wildlife health, ecology, and earth
-and environmental systems, especially when observations are incomplete.
+and environmental systems, especially when observations are incomplete. Maintained
+by [Joshua C. Macdonald](https://jcmacdonald.dev/).
 
 [Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Projects](https://jcmacdonald.dev/projects/)
 
 ## Focus Areas
 
-- **Decision support under partial observability.** Surveillance design,
-  forecasting pipelines, intervention evaluation, resource allocation
-- **Multiscale models and observations.** Within-host, structured-population,
-  spatial and ecological processes linked to measurements at different scales
-- **Model criticism and evaluation.** Structured observables, Pareto-optimal
-  configuration selection, Bayesian stacking, proper scoring rules
-- **Scientific machine learning.** Surrogates with physical constraints
-  and generative model design
-- **Operator-partitioned solvers.** IMEX and PDE operator splitting, trait-structured
-  dynamical systems
-- **Bayesian latent variable models.** Variational PCA, posterior predictive
-  testing, rank selection
-- **Operational forecasting.** Infectious disease scenario modeling,
-  ensemble calibration, intervention timing
+- **Simulation and model specification.** Mechanistic models, numerical solvers and
+  scientific machine learning across within-host, population, spatial and ecological scales
+- **Inference and measurement.** Parameter estimation, incomplete-data models and
+  checks of what observations can distinguish
+- **Model evaluation and study design.** Prediction checks and comparisons of
+  experiments, interventions, monitoring programs and surveillance plans
 
 ## Research in progress
 
-Current methodological work includes structural evaluation of scientific
-predictions, parameter inference and calibration, and learning from sparse
-observations. [op_infer](https://jcmacdonald.dev/projects/inference_calibration/)
+Current methodological work includes empirical evaluation of scenario-model
+submissions, parameter inference and calibration, and learning from sparse
+observations. Declared consistency checks are evaluated for usefulness; they do not
+by themselves establish predictive accuracy. [op_infer](https://jcmacdonald.dev/projects/inference_calibration/)
 connects Bayesian fitting, simulation-based checks and replicated studies;
 the source is public, pre-alpha and unreleased on PyPI while broader interfaces
 and application-specific validation develop. See the
@@ -42,6 +36,12 @@ where available.
 | Package                                               | Language | Description                                                                                                                                      |
 | ----------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [trade-study](https://github.com/jcm-sci/trade-study) | Python   | Released framework for comparing model settings, experiments, studies and surveillance plans through replicated studies, paired comparisons, Pareto analysis and provenance-checked result bundles |
+
+<!-- software-release:trade_study:start -->
+
+Public alpha release: [v0.6.0 on PyPI](https://pypi.org/project/trade-study/0.6.0/). Cite the [v0.6.0 archive](https://doi.org/10.5281/zenodo.23497881); the [concept DOI](https://doi.org/10.5281/zenodo.19599838) covers all archived versions.
+
+<!-- software-release:trade_study:end -->
 
 ## Inactive Design Scaffolds
 
@@ -60,7 +60,7 @@ Julia work and should not be installed as packages.
 
 | Package                                                             | Org         | Description                                                                                                                                                              |
 | ------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)                   | yoavram-lab | Variational Bayesian PCA for incomplete data with approximate posterior uncertainty                                                                                      |
+| [VBPCApy](https://github.com/yoavram-lab/VBPCApy)                   | yoavram-lab | Variational Bayesian PCA for explicitly masked observations with approximate variational-posterior covariance summaries                                                                                      |
 | [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/)      | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                                                                                                   |
 | [op_engine](https://github.com/ACCIDDA/op_engine)                   | ACCIDDA     | Released PDE/field and nonlocal operator core with deterministic/stochastic reaction solvers, independent NumPy SSA banks, named observations and qualified CPU backends |
 | [op_system](https://github.com/ACCIDDA/op_system)                   | ACCIDDA     | Released PDE/field, nonlocal and reaction model compiler with Array API evaluators, reaction/observable metadata, forcing schedules and independent-block contracts      |
