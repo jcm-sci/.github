@@ -1,8 +1,9 @@
 # [Joshua C. Macdonald](https://jcmacdonald.dev/)
 
-Research software for simulation, statistical inference, and study design
-in earth, environmental, and health sciences. Applications include comparing
-interventions and surveillance strategies when observations are incomplete.
+Research software for mechanistic simulation, statistical inference, and the
+design of experiments, studies, monitoring programs, and surveillance. Applications
+span human infectious disease, livestock and wildlife health, ecology, and earth
+and environmental systems, especially when observations are incomplete.
 
 [Website](https://jcmacdonald.dev/) · [Publications](https://jcmacdonald.dev/publications/) · [Projects](https://jcmacdonald.dev/projects/)
 
@@ -10,6 +11,8 @@ interventions and surveillance strategies when observations are incomplete.
 
 - **Decision support under partial observability.** Surveillance design,
   forecasting pipelines, intervention evaluation, resource allocation
+- **Multiscale models and observations.** Within-host, structured-population,
+  spatial and ecological processes linked to measurements at different scales
 - **Model criticism and evaluation.** Structured observables, Pareto-optimal
   configuration selection, Bayesian stacking, proper scoring rules
 - **Scientific machine learning.** Surrogates with physical constraints
@@ -27,7 +30,8 @@ Current methodological work includes structural evaluation of scientific
 predictions, parameter inference and calibration, and learning from sparse
 observations. [op_infer](https://jcmacdonald.dev/projects/inference_calibration/)
 connects Bayesian fitting, simulation-based checks and replicated studies;
-it remains private, pre-alpha and unreleased while application-specific validation develops. See the
+the source is public, pre-alpha and unreleased on PyPI while broader interfaces
+and application-specific validation develop. See the
 [research summaries](https://jcmacdonald.dev/projects/current_analyses/) and
 [inference project](https://jcmacdonald.dev/projects/inference_calibration/) for
 questions, aims and current status, with public papers and artifacts linked
@@ -37,7 +41,7 @@ where available.
 
 | Package                                               | Language | Description                                                                                                                                      |
 | ----------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [trade-study](https://github.com/jcm-sci/trade-study) | Python   | Released framework for replicated studies, paired comparisons, Pareto analysis, preference-based decisions and provenance-checked result bundles |
+| [trade-study](https://github.com/jcm-sci/trade-study) | Python   | Released framework for comparing model settings, experiments, studies and surveillance plans through replicated studies, paired comparisons, Pareto analysis and provenance-checked result bundles |
 
 ## Inactive Design Scaffolds
 
@@ -60,7 +64,7 @@ Julia work and should not be installed as packages.
 | [pp-eigentest](https://jcmacdonald.dev/projects/pp_eigentest/)      | yoavram-lab | Private pre-release work on posterior-predictive signal-rank selection                                                                                                   |
 | [op_engine](https://github.com/ACCIDDA/op_engine)                   | ACCIDDA     | Released PDE/field and nonlocal operator core with deterministic/stochastic reaction solvers, independent NumPy SSA banks, named observations and qualified CPU backends |
 | [op_system](https://github.com/ACCIDDA/op_system)                   | ACCIDDA     | Released PDE/field, nonlocal and reaction model compiler with Array API evaluators, reaction/observable metadata, forcing schedules and independent-block contracts      |
-| [op_infer](https://jcmacdonald.dev/projects/inference_calibration/) | ACCIDDA     | Private pre-alpha statistical layer for Bayesian fitting, simulation-based calibration and replicated study-design checks; unreleased                                    |
+| [op_infer](https://github.com/ACCIDDA/op_infer)                      | ACCIDDA     | Public pre-alpha statistical layer for Bayesian fitting, simulation-based calibration and replicated study-design checks; unreleased on PyPI                             |
 | [flepimop2](https://github.com/ACCIDDA/flepimop2)                   | ACCIDDA     | Configuration-driven orchestration and provider framework for infectious-disease modeling campaigns                                                                      |
 
 The Python [op_system](https://accidda.github.io/op_system/latest/guides/capabilities/)
