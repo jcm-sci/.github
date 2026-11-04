@@ -26,10 +26,8 @@ by themselves establish predictive accuracy. [op_infer](https://jcmacdonald.dev/
 connects Bayesian fitting, simulation-based checks and replicated studies;
 the source is public, pre-alpha and unreleased on PyPI while broader interfaces
 and application-specific validation develop. See the
-[research summaries](https://jcmacdonald.dev/projects/current_analyses/) and
-[inference project](https://jcmacdonald.dev/projects/inference_calibration/) for
-questions, aims and current status, with public papers and artifacts linked
-where available.
+[research summaries](https://jcmacdonald.dev/projects/current_analyses/) for current
+work and available papers and artifacts.
 
 ## Packages
 
